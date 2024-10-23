@@ -78,18 +78,13 @@ a{
 
 /* ---------------------------------------------- */
 
-.ham-berger{
-
-}
 #checkbox-ham-berger:checked + label + ul{
     transform: translateX(0);
 }
 
-.lable-ham-berger{
-
-}
-.ham-berger-menu{
-
+.ham-berger-menu li:first-child {
+    width: max-content;
+    padding-right: 165px;
 }
 
 .icon-bar{
