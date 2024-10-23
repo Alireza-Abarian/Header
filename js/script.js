@@ -1,18 +1,19 @@
-let closeMenu = document.getElementById("icon-close")
+let iconClose = document.getElementById("icon-close")
 let dropMenu = document.getElementsByClassName("ham-berger-menu")
-let hamBerger = document.getElementsByClassName('ham-berger')
+let iconBar = document.getElementById('icon-bar')
 
 
 function close() {
-    dropMenu[0].style.transform = 'translateX(-250px)'
+    dropMenu[0].style.transform = 'translateX(-250px)'    
+}
 
+function open() {
+    dropMenu[0].style.transform = 'translateX(0)'
 }
 
 
-closeMenu.addEventListener('click' , close)
-
-console.log(dropMenu[0]);
-console.log(hamBerger[0]);
+iconClose.addEventListener('click' , close)
+iconBar.addEventListener('click' , open)
 
 
 

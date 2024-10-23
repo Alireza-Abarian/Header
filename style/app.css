@@ -87,11 +87,11 @@ a{
     padding-right: 165px;
 }
 
-.icon-bar{
+#icon-bar{
     width: 40px;
     cursor: pointer;
 }
-.icon-close{
+#icon-close{
     width: 20px;
     transition: all 300ms;
 }
