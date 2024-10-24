@@ -150,12 +150,12 @@ img{
     color: #333333;
     line-height: 1.7rem;
 }
-.header-bottom-left div{
+.header-bottom-left form{
     display: flex;
     align-items: center;
     width: 100%;
 }
-.header-bottom-left div input{
+.header-bottom-left form input{
     border: 0;
     outline: 0;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
@@ -164,7 +164,7 @@ img{
     font-size: 0.8rem;
     max-width: 300px;
 }
-.header-bottom-left div a{
+.header-bottom-left form a{
     border: 0;
     outline: 0;
     background-color: blueviolet;
